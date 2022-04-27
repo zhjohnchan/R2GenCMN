@@ -21,7 +21,7 @@ If you use or extend our work, please cite our paper at ACL-IJCNLP-2021.
 ## Requirements
 
 - `torch==1.7.1`
-- `torchvision==0.6.1`
+- `torchvision==0.8.2`
 - `opencv-python==4.4.0.42`
 
 ## Download R2GenCMN

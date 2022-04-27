@@ -25,7 +25,7 @@ If you use or extend our work, please cite our paper at ACL-IJCNLP-2021.
 - `opencv-python==4.4.0.42`
 
 ## Download R2GenCMN
-You can download the models we trained for each dataset from [here](https://github.com/cuhksz-nlp/R2GenCMN/blob/main/data/r2gencmn.md).
+You can download the models we trained for each dataset from [here](https://github.com/zhjohnchan/R2GenCMN/blob/main/data/r2gencmn.md).
 
 ## Datasets
 We use two datasets (IU X-Ray and MIMIC-CXR) in our paper.

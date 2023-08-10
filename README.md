@@ -2,6 +2,10 @@
 
 This is the implementation of [Cross-modal Memory Networks for Radiology Report Generation](https://aclanthology.org/2021.acl-long.459/) at ACL-IJCNLP-2021.
 
+## News
+- The codebase is kind of old so we refer the readers to this awesome project ([ViLMedic](https://github.com/jbdel/vilmedic)).
+- The codes for visualization and clinical efficacy are updated.
+
 ## Citations
 
 If you use or extend our work, please cite our paper at ACL-IJCNLP-2021.
@@ -32,7 +36,7 @@ We use two datasets (IU X-Ray and MIMIC-CXR) in our paper.
 
 For `IU X-Ray`, you can download the dataset from [here](https://drive.google.com/file/d/1c0BXEuDy8Cmm2jfN0YYGkQxFZd2ZIoLg/view?usp=sharing) and then put the files in `data/iu_xray`.
 
-For `MIMIC-CXR`, you can download the dataset from [here](https://physionet.org/content/mimic-cxr/2.0.0/) and then put the files in `data/mimic_cxr`.
+For `MIMIC-CXR`, you can download the dataset from [here](https://drive.google.com/file/d/1DS6NYirOXQf8qYieSVMvqNwuOlgAbM_E/view?usp=sharing) and then put the files in `data/mimic_cxr`.
 
 NOTE: The `IU X-Ray` dataset is of small size, and thus the variance of the results is large.
 There have been some works using `MIMIC-CXR` only and treating the whole `IU X-Ray` dataset as an extra test set.
@@ -48,6 +52,8 @@ Run `bash train_mimic_cxr.sh` to train a model on the MIMIC-CXR data.
 Run `bash test_iu_xray.sh` to test a model on the IU X-Ray data.
 
 Run `bash test_mimic_cxr.sh` to test a model on the MIMIC-CXR data.
+
+Follow [CheXpert](https://github.com/MIT-LCP/mimic-cxr/tree/master/txt/chexpert) or [CheXbert](https://github.com/stanfordmlgroup/CheXbert) to extract the labels and then run `python compute_ce.py`.
 
 ## Visualization
 

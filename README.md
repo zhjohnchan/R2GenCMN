@@ -3,7 +3,7 @@
 This is the implementation of [Cross-modal Memory Networks for Radiology Report Generation](https://aclanthology.org/2021.acl-long.459/) at ACL-IJCNLP-2021.
 
 ## News
-- The codebase is kind of old so we refer the readers to this awesome project ([ViLMedic](https://github.com/jbdel/vilmedic)).
+- The codebase is kind of old so we refer the readers to this awesome project ([ViLMedic](https://github.com/jbdel/vilmedic)). You can also check our newly released [PTUnifier](https://github.com/zhjohnchan/ptunifier), which can perform various medical image-text tasks like radiology report generation.
 - The codes for visualization and clinical efficacy are updated.
 
 ## Citations
